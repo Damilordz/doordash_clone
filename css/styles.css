@@ -1,0 +1,702 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.row-1-top {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 4.5rem;
+  border-bottom: 0.1875rem solid whitesmoke;
+  z-index: 2;
+}
+
+/*.resturantName{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 4px;
+    color: #f52f02;
+}*/
+
+.DoorDash-logo {
+  position: absolute;
+  top: 1.25rem;
+  left: 3.125rem;
+}
+
+.signInButton {
+  text-decoration: none;
+  background-color: #f54627;
+  color: white;
+  padding: 0.625rem 0.75rem;
+  border-radius: 20px;
+  position: absolute;
+  top: 1.25rem;
+  right: 8.75rem;
+}
+
+.signUpButton {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0.625rem 0.75rem;
+  border-radius: 30px;
+  position: absolute;
+  top: 1.25rem;
+  right: 3.125rem;
+}
+
+.login_openApp {
+  display: none;
+}
+
+.signInButton:hover,
+.signUpButton:hover {
+  opacity: 0.9;
+}
+
+.row-1 {
+  background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  height: 37.5rem;
+}
+
+.door_dash_logo {
+  display: none;
+  width: 10.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.row-s-1 a {
+  color: #f54627;
+  font-weight: bold;
+}
+
+.searchRestuarant {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#searchAddressText {
+  width: 21.875rem;
+  padding: 1.25rem;
+  border-radius: 30px;
+  border: none;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5625rem;
+}
+
+.address_signin {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0.625rem;
+  border-radius: 20px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.login-1,
+.app-download {
+  display: none;
+}
+
+.container-1 {
+  position: relative;
+  height: 34.375rem;
+}
+
+.row-s-1 {
+  position: absolute;
+  top: 4.375rem;
+  padding: 3.125rem;
+  text-align: center;
+  width: 100%;
+}
+
+.img_scoot {
+  position: absolute;
+  width: 20%;
+  left: 6.25rem;
+  line-height: 1.5;
+}
+
+.img_storefront {
+  position: absolute;
+  width: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 1.5;
+}
+
+.img_phone {
+  position: absolute;
+  width: 20%;
+  right: 11.25rem;
+  line-height: 1.5;
+}
+
+#img_phone {
+  height: 115px;
+  width: 154px;
+}
+
+.row-s-1 > div a {
+  text-decoration: none;
+}
+
+.container-2 {
+  position: relative;
+  height: 34.0625rem;
+}
+
+.row-s-2-img > img {
+  height: 450px;
+  width: 695px;
+}
+
+.container-1 h2 {
+  font-size: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+
+div h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.875rem;
+}
+
+div h3 {
+  font-size: 1.25rem;
+  letter-spacing: 0.125rem;
+  margin-bottom: 1.125rem;
+}
+
+div p {
+  line-height: 1.5;
+}
+
+.row-s-2 {
+  position: absolute;
+  padding: 3.125rem;
+  width: 100%;
+}
+
+.row-s-2-1 {
+  position: absolute;
+  left: 7.5rem;
+  top: 9.375rem;
+  max-width: 400px;
+}
+
+.row-s-2-1 h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.row-s-2-img {
+  position: absolute;
+  right: 6.875rem;
+  top: 3.125rem;
+  z-index: 1;
+}
+
+.btn-2-1,
+.btn-3-1,
+.btn-4-1,
+.btn-5-1,
+.btn-6-1,
+.btn-6-2,
+.btn-6-3,
+.btn-6-4,
+.btn-7-1,
+.btn-8-1 {
+  margin-top: 2.5rem;
+}
+
+.row-s-2-button,
+.row-s-3-button,
+.row-s-4-button,
+.row-s-5-button,
+.row-s-6-button,
+.row-s-7-button,
+.row-s-8-button {
+  background-color: #f54627;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 1.25rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row-s-2-button:hover,
+.row-s-3-button:hover,
+.row-s-4-button:hover,
+.row-s-5-button:hover,
+.row-s-6-button:hover,
+.row-s-7-button:hover,
+.row-s-8-button:hover {
+  opacity: 0.8;
+}
+
+.container-3 {
+  background-color: #fef1ee;
+  height: 38.75rem;
+  position: relative;
+}
+
+.row-s-3-1 {
+  position: absolute;
+  max-width: 400px;
+}
+
+.row-s-3-img {
+  position: absolute;
+  top: 5rem;
+  left: 7.5rem;
+}
+
+.row-s-3-img > img {
+  height: 450px;
+  max-width: 100%;
+}
+
+.row-s-3-1 {
+  position: absolute;
+  right: 10rem;
+  bottom: 12.5rem;
+}
+
+.container-4 {
+  position: relative;
+  background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png");
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.row-s-4 {
+  background-color: rgba(30, 30, 30, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.row-s-4-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  max-width: 500px;
+}
+
+.container-5 {
+  position: relative;
+  height: 34.0625rem;
+  z-index: 1;
+}
+
+.row-s-5-1 {
+  max-width: 400px;
+}
+
+.row-s-5-2 > img {
+  height: 450px;
+  width: 695px;
+}
+
+.row-s-5-1 {
+  position: absolute;
+  left: 7.5rem;
+  top: 12.5rem;
+}
+
+.row-s-5-2 {
+  position: absolute;
+  top: 3.75rem;
+  right: 6.875rem;
+}
+
+.container-6 {
+  position: relative;
+  height: 114.375rem;
+  background-color: #fef1ee;
+}
+
+.container-6 > div img {
+  width: 35rem;
+  height: 32.6875rem;
+  margin-bottom: 1.25rem;
+}
+
+.row-s-6-toptext {
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 450px;
+}
+
+.row-s-6-toptext h2 {
+  font-size: 28px;
+}
+
+.row-s-6-1 {
+  position: absolute;
+  left: 8rem;
+  top: 12.5rem;
+}
+
+.row-s-6-1-text,
+.row-s-6-2-text,
+.row-s-6-3-text,
+.row-s-6-4-text {
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-s-6-2 {
+  position: absolute;
+  top: 12.5rem;
+  right: 7.5rem;
+}
+
+.row-s-6-3 {
+  position: absolute;
+  left: 7.5rem;
+  bottom: 1.875rem;
+}
+
+.row-s-6-4 {
+  position: absolute;
+  right: 7.5rem;
+  bottom: 1.875rem;
+}
+
+.container-7 {
+  position: relative;
+  height: 42.5rem;
+}
+
+.row-s-7-1-text {
+  position: absolute;
+  left: 7.5rem;
+  bottom: 6.25rem;
+  max-width: 400px;
+}
+
+.row-s-7-1-text > h2 {
+  max-width: 380px;
+}
+
+.row-s-7-img {
+  position: absolute;
+  right: 7.5rem;
+  top: 12.5rem;
+  z-index: 1;
+}
+
+.row-s-7-toptext {
+  position: absolute;
+  top: 3.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 450px;
+}
+
+.row-s-7-toptext > h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.container-8 {
+  position: relative;
+  height: 37.5rem;
+  background-color: #fef1ee;
+}
+
+.row-s-8-img {
+  position: absolute;
+  bottom: 3.125rem;
+  left: 7.5rem;
+}
+
+.row-s-8-1-text {
+  position: absolute;
+  right: 7.5rem;
+  bottom: 11.25rem;
+  max-width: 420px;
+}
+
+.row-s-8-1-text h2 {
+  max-width: 380px;
+}
+
+.container-9 {
+  position: relative;
+  height: 21.875rem;
+  background-color: white;
+}
+
+.row-s-9-toptext {
+  position: absolute;
+  top: 3.125rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.row-s-9-toptext > h3 {
+  font-size: 29px;
+}
+
+.row-s-9-1 {
+  position: absolute;
+  top: 7.5rem;
+  left: 7.5rem;
+  width: 75rem;
+  border-bottom: 0.125rem solid whitesmoke;
+}
+
+.row-s-9-1 h3 {
+  display: inline-block;
+  width: 24.6875rem;
+  text-align: center;
+  padding: 0.75rem;
+  margin-bottom: 0;
+}
+
+.row-s-9-1 h3:hover {
+  background-color: rgba(237, 230, 230, 0.3);
+}
+
+.row-s-9-table {
+  position: absolute;
+  bottom: 2.8125rem;
+  width: 75rem;
+  left: 7.5rem;
+}
+
+.row-s-9-table-1 {
+  display: none;
+}
+
+.row-s-9-table > table {
+  width: 75rem;
+  text-align: center;
+}
+
+.row-s-9-table > table,
+.row-s-9-table td {
+  border: none;
+  padding: 0.625rem;
+}
+
+.row-s-9-table td:hover {
+  background-color: rgba(237, 230, 230, 0.3);
+  opacity: 0.8;
+}
+
+footer {
+  position: relative;
+  height: 43.75rem;
+  background-color: #2e2e37;
+}
+
+.footer-s-1 {
+  position: absolute;
+  left: 7.5rem;
+  top: 2.5rem;
+  line-height: 2.5;
+  color: white;
+}
+
+.footer-s-1 a,
+.footer-s-2 a,
+.footer-s-3 a,
+.footer-s-4 a,
+.footer-s-5 a,
+.footer-s-6 a,
+.footer-s-7 a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-s-1 a:hover,
+.footer-s-2 a:hover,
+.footer-s-3 a:hover,
+.footer-s-4 a:hover,
+.footer-s-5 a:hover,
+.footer-s-6 a:hover,
+.footer-s-7 a:hover {
+  text-decoration: underline;
+  color: white;
+  opacity: 1;
+}
+
+.footer-s-1 p,
+.footer-s-2 p,
+.footer-s-3 p,
+.footer-s-4 p,
+.footer-s-5 p,
+.footer-s-6 p,
+.footer-s-7 p {
+  padding: 0.21875rem;
+  font-size: small;
+}
+
+.footer-s-2 {
+  position: absolute;
+  top: 5rem;
+  left: 26.25rem;
+  line-height: 2.5;
+}
+
+.footer-s-3 {
+  position: absolute;
+  top: 5rem;
+  right: 38.75rem;
+}
+
+.footer-s-4 {
+  position: absolute;
+  top: 5rem;
+  right: 20rem;
+}
+
+.footer-s-5 {
+  position: absolute;
+  color: white;
+  bottom: 6.25rem;
+  left: 7.5rem;
+}
+
+.footer-s-6 {
+  position: absolute;
+  left: 20.625rem;
+  top: 15rem;
+}
+
+.footer-s-6 h4,
+.footer-s-7 h4 {
+  color: white;
+}
+
+.footer-s-7 {
+  position: absolute;
+  top: 15rem;
+  left: 33.75rem;
+}
+
+.footer-s-8 {
+  position: absolute;
+  right: 7.5rem;
+  top: 15rem;
+}
+
+.footer-s-8-1,
+.footer-s-8-2 {
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem 0.5rem;
+  text-align: center;
+  background-color: #494949;
+  width: 10rem;
+}
+
+.footer-s-8-1 a,
+.footer-s-8-2 a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+.footer-s-8-1 a:hover,
+.footer-s-8-2 a:hover {
+  color: white;
+  opacity: 1;
+}
+
+.footer-s-8-1 p {
+  font-size: small;
+  margin-left: 1.875rem;
+}
+
+.footer-s-8-2 p {
+  font-size: xx-small;
+  margin-left: 1.875rem;
+}
+
+.fa-google-play,
+.fa-mobile-screen-button {
+  float: left;
+}
+
+.footer-last {
+  position: absolute;
+  bottom: 2.5rem;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer-s-9 {
+  display: inline-block;
+}
+
+.footer-s-9 a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1.25rem;
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.footer-s-9 a:hover {
+  text-decoration: underline;
+  color: white;
+  opacity: 1;
+}
+
+.footer-s-10 {
+  display: inline-block;
+}
+
+.lang-select {
+  padding: 0.375rem 0.625rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.footer-social-1 {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 12.5rem;
+}
+
+.footer-social-2 {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 10.625rem;
+}
+.footer-social-3 {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 8.75rem;
+}
